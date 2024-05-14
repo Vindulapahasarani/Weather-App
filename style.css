@@ -1,0 +1,149 @@
+body {
+
+    background-image: -webkit-image-set();
+    background-color: #0a3161;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: #320746c4;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    border: 3px solid rgba(5, 5, 5, 0.692);
+    text-align: center;
+
+}
+
+h2,
+label,
+p {
+    color: #dbe63a;
+    margin: 10px 0;
+    align-self: center;
+    font-size: 40px;
+
+
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 9px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 4px solid white;
+    margin-top: 20px;
+}
+
+#Searchbtn {
+
+    background-color: #5e7cc9;
+    font-size: medium;
+    color: rgb(18, 58, 94);
+    cursor: pointer;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+#Searchbtn :hover {
+    background: #fefefe;
+}
+
+#temp-div p {
+
+
+    font-size: 40px;
+    margin-top: 25px;
+    align-self: center;
+}
+
+#City-info p {
+
+
+    margin-top: -30px;
+    padding: 0px;
+    font-size: 40px;
+}
+
+#Weather-info p {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: -5px;
+    align-content: center;
+}
+
+
+#WeatherIcon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    margin-top: 70px;
+    display: none;
+}
+
+#Humidity p {
+    font-size: 20px;
+    margin-top: 15px;
+
+
+}
+
+
+
+#humidity-icon {
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-bottom: -160px;
+    width: 170px;
+    height: 170px;
+    padding: 0px;
+}
+
+#Humidity-level p {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+#Wind-speed-container {
+    margin-left: 300px;
+    margin-top: -90px;
+    font-weight: 400;
+}
+
+#Wind-icon {
+    margin-top: 0px;
+    margin-right: 40px;
+    margin-bottom: -130px;
+    width: 130px;
+    height: 150px;
+    padding: 0px;
+}
+
+#Wind-speed p {
+
+    font-size: 20px;
+    margin-right: 170px;
+    margin-bottom: -15px;
+}
+
+#Wind-speed-level p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 170px
+}

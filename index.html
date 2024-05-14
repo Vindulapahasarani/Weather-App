@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container" class="row-cols-lg-auto row-cols-md-auto row-cols-sm-auto   ">
+
+        <h2>Weather App</h2>
+        <i id="location" class="fa-solid fa-location-dot"></i>
+        <input type="text" id="city" placeholder="Enter City">
+
+        <div class="row-cols-5 "><button id="Searchbtn" onclick="searchWeather()">Search</button></div>
+
+
+
+        <div class="row-cols-9">
+            <div id="temp-div"></div>
+        </div>
+
+        <div class="row-cols-9">
+            <div id="City-info"></div>
+        </div>
+
+        <div class="row-2 cols-6 ">
+            <img id="WeatherIcon" src="images/4.jpeg" alt="">
+        </div>
+
+        <div class="row-cols-9 ">
+            <div id="Weather-info"></div>
+        </div>
+
+        <div id="humidity-icon" class="row-cols-6 ">
+            <img src="images/6.jpeg" alt="">
+
+        </div>
+        <div id="Humidity" class="row-cols-3 ">
+            <p>Humidity</p>
+
+        </div>
+
+        <div id="Humidity-level" class="row-cols-9 ">
+
+            <p>0%</p>
+        </div>
+
+        <div id="Wind-speed-container" class="row-cols-auto   ">
+            <div id="Wind-icon" class="row-cols-4 ">
+                <img src="images/1.jpeg" alt="windy-icon">
+            </div>
+            <div id="Wind-speed" class="row-cols-auto  ">
+                <p>Wind Speed</p>
+            </div>
+            <div id="Wind-speed-level" class="row-cols-8 ">
+                <p>0 Kmph</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
